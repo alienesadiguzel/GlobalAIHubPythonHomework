@@ -17,7 +17,7 @@ while program:
         lname= input ("Plz enter your surname: ")
         info["LastName"].append(lname)
         year= int(input("Plz enter your birth year: "))
-        if bugun.year-age != year: #Burada doğum yılını sorgulayıp yanlış yai girmesini engelledim.
+        if bugun.year-age != year: #Burada doğum yılını sorgulayıp yanlış yaş girmesini engelledim.
             print("The age value you entered does not match your birth year.")
             program=False
         else:
