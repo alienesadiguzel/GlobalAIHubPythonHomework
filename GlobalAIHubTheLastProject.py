@@ -1,3 +1,5 @@
+#sabit bir kullanıcı yok, önce kayıt olmanız lazım.
+
 class studentManSys:
     def __init__(self,name=[], lesson=[]):
         self.name=name
